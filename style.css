@@ -3,7 +3,7 @@ body {
   margin-top: 25%;
 }
 
-button#gg {
+button.gg {
   border: 1px solid #4b0082;
   color: black;
   border-radius: 30px;
@@ -14,11 +14,11 @@ button#gg {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-button#gg:hover {
+button.gg:hover {
   background: linear-gradient(#87cefa, #00008b);
 }
 
-button#gg:active {
+button.gg:active {
   transform: translate(0, 2px);
 }
 
