@@ -3,7 +3,20 @@
      margin-top: 25%;
  }
 button#gg{
+    border: 1px solid #4B0082;
+    color: black;
     border-radius: 30px;
     height: 50px;
     width: 50px;
+    background-color: #E0FFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button#gg:hover{
+    background:linear-gradient(#87CEFA,#00008B)
+}
+button#gg:active{
+    transform: translate(0, 2px);
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
